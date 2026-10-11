@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    height: 100vh;
+}
+
+button {
+    align-self: flex-start;
+    height: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: min(100vw, calc(100vh - 20px));
+    height: min(100vw, calc(100vh - 20px));
+}
+
+.row {
+    display: flex;
+    flex: 1 1 10px;
+}
+
+.box {
+    border: 1px solid black;
+    flex: 1 1 10px;
+}
+
+.hover {
+    background-color: darkblue;
+}
